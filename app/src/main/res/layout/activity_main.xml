@@ -46,13 +46,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText1"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:inputType="number"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
-        android:layout_toEndOf="@id/editText1"/>
+        android:layout_toEndOf="@id/editText1"
+        android:inputType="number"/>
 
 
 </RelativeLayout>
