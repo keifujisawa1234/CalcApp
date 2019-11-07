@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
         android:layout_toEndOf="@id/editText1"
-        android:inputType="number"/>
+        android:inputType="number|numberDecimal"/>
 
 
 </RelativeLayout>
